@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta http-equiv="Content-Type" content="text/html;"/>
+		<meta name="description" content="Stolarija Erkić - Izrada svih vrsta stepenica od masivnog drveta"/>
+		<meta name="keywords" content="stolarija, erkic, stepenice, novi sad, srbija, drvene stepenice, spiralne stepenice, oblaganje stepenica, samonosive stepenice"/>
+		<meta name="robots" content="index, follow"/>
+
+		<title>Stolarija Erkić</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
+
+		<link rel="stylesheet" type="text/css" href="css/slicknav.css">
+		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+		<script type="text/javascript" src="js/camera.min.js"></script>
+		<script type="text/javascript" src="js/myscript.js"></script>
+		<script src="js/sorting.js" type="text/javascript"></script>
+		<script src="js/jquery.isotope.js" type="text/javascript"></script>
+		<!--script type="text/javascript" src="js/jquery.nav.js"></script-->
+		
+
+		<script>
+			jQuery(function(){
+					jQuery('#camera_wrap_1').camera({
+					transPeriod: 500,
+					time: 3000,
+					height: '490px',
+					thumbnails: false,
+					pagination: true,
+					playPause: false,
+					loader: false,
+					navigation: false,
+					hover: false
+				});
+			});
+		</script>
+		
+		<style>
+      #map {
+        width: 100%;
+        height: 750px;
+      }
+    </style>
+
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>  -->
+    <script>
+
+      function initialize() {
+        var map_canvas = document.getElementById('map');
+        var map_options = {
+          center: new google.maps.LatLng(45.227374, 19.879481),
+          zoom: 13,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+		var map = new google.maps.Map(map_canvas, map_options)
+
+		var pos = new google.maps.LatLng(45.227374, 19.879481);
+
+		var marker = new google.maps.Marker({
+			position: pos,
+			map: map,
+			title: 'Ortačka stolarska radnja Erkić, Račkog 186, Petrovaradin, Novi Sad, Srbija'
+		  });
+      }
+	  
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+		
+	</head>
+	<body>
+    
+    <!--home start-->
+    
+    <div id="home">
+    	<div class="headerLine">
+	<div id="menuF" class="default">
+		<div class="container">
+			<div class="row">
+				<div class="logo col-md-4">
+					STOLARIJA ERKIĆ
+				</div>
+				<div class="col-md-8">
+					<div class="navmenu" style="text-align: center;">
+						<ul id="menu">
+							<li class="active" ><a href="#home">Home</a></li>
+							<li><a href="#project">Radovi</a></li>
+							<li><a href="#about">O nama</a></li>
+							<li class="last"><a href="#contact">Kontakt</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<div class="row wrap">
+				<div class="col-md-12 gallery"> 
+						<div class="camera_wrap camera_white_skin" id="camera_wrap_1">
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>Mi slušamo.</h2>
+								</div>
+							</div>
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>Mi radimo.</h2>
+								</div>
+							</div>
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>Mi isporučujemo.</h2>
+								</div>
+							</div>
+						</div><!-- #camera_wrap_1 -->
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 project">
+					<h3>1,000+</h3>
+					<h4>Isporučenih stepenica</h4>
+					<p>Napravili smo više od 1,000 različitih modela stepenica u našoj karijeri</p>
+				</div>
+				<div class="col-md-6 project">
+					<h3>1,000+</h3>
+					<h4>Zadovoljnih mušterija</h4>
+					<p>Naše stepenice se koriste u više od 1,000 domaćinstava</p>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+    <!--project start-->    
+    <div id="project">    	
+		<div class="line3">
+			<div class="container">
+				<div id="project1" ></div>
+				<div class="row Ama">
+					<div class="col-md-12">
+					<span name="projects" id="projectss"></span>
+					<h3>Naši radovi</h3>				
+					</div>
+					<div class="soc col-md-12">
+						<ul>
+							<li class="soc2"><a href="https://www.facebook.com/Stepenice.Erkic/?fref=ts" target=_blank></a></li>
+							<li class="soc6"><a href="https://www.youtube.com/watch?v=S29inNP9K5A" target=_blank></a></li>
+						</ul>
+					</div>					
+				</div>
+			</div>
+		</div>          
+    
+    
+       <div class="container">
+		
+		<div class="row">
+			<!-- filter_block -->
+				<div id="options" class="col-md-12" style="text-align: center;">	
+					<h3>Preuzmite <a href="/documents/erkic_broshura.pdf" target=_blank>brošuru</a> naših radova.</h3>
+					<ul id="filter" class="option-set" data-option-key="filter">
+						<li><a class="selected" href="#filter" data-option-value="*" class="current">Sve</a></li>
+						<li><a href="#filter" data-option-value=".hrast">Hrast</a></li>
+						<li><a href="#filter" data-option-value=".bukva">Bukva</a></li>
+						<li><a href="#filter" data-option-value=".bajc">Bajc</a></li>
+						<li><a href="#filter" data-option-value=".staklo">Staklo</a></li>
+					</ul>
+				</div><!-- //filter_block -->
+		
+		
+		
+			<div class="portfolio_block columns3 pretty" data-animated="fadeIn">	
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic1.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic1.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">1. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="element col-sm-4  gall hrast staklo">
+						<a class="plS" href="images/prettyPhotoImages/pic2.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic2.jpg" alt="Staklo"/>
+						</a>
+						<div class="view project_descr center">
+							<h3><a href="#">2. Hrast/Staklo</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="element col-sm-4  gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic3.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic3.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">3. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+		
+		
+					
+					<div class="element col-sm-4  gall  staklo">
+						<a class="plS" href="images/prettyPhotoImages/pic4.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic4.jpg" alt="Staklo"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">4. Staklo</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="element col-sm-4  gall  bukva">
+						<a class="plS" href="images/prettyPhotoImages/pic5.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic5.jpg" alt="Bukva"/>
+						</a>
+						<div class="view project_descr center">
+							<h3><a href="#">5. Bukva</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="element col-sm-4  gall  hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic6.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic6.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">6. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic7.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic7.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">7. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="element col-sm-4  gall bajc">
+						<a class="plS" href="images/prettyPhotoImages/pic8.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic8.jpg" alt="Bajc"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">8. Bajc</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="element col-sm-4  gall staklo">
+						<a class="plS" href="images/prettyPhotoImages/pic9.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic9.jpg" alt="Staklo"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">9. Staklo</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>	
+					
+					<div class="element col-sm-4  gall bajc">
+						<a class="plS" href="images/prettyPhotoImages/pic10.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic10.jpg" alt="Bajc"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">10. Bajc</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>	
+					
+					<div class="element col-sm-4  gall bajc">
+						<a class="plS" href="images/prettyPhotoImages/pic11.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic11.jpg" alt="Bajc"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">11. Bajc</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4  gall bukva">
+						<a class="plS" href="images/prettyPhotoImages/pic12.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic12.jpg" alt="Bukva"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">12. Bukva</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+
+					<div class="element col-sm-4  gall bukva">
+						<a class="plS" href="images/prettyPhotoImages/pic13.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic13.jpg" alt="Bukva"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">13. Bukva</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+
+					<div class="element col-sm-4  gall bukva">
+						<a class="plS" href="images/prettyPhotoImages/pic14.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic14.jpg" alt="Bukva"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">14. Bukva</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>			
+
+
+					<div class="element col-sm-4  gall bajc">
+						<a class="plS" href="images/prettyPhotoImages/pic15.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic15.jpg" alt="Bajc"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">15. Bajc</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4  gall bajc">
+						<a class="plS" href="images/prettyPhotoImages/pic16.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic16.jpg" alt="Bajc"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">16. Bajc</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic17.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic17.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">17. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic18.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic18.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">18. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="element col-sm-4  gall bukva">
+						<a class="plS" href="images/prettyPhotoImages/pic19.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic19.jpg" alt="Bukva"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">19. Bukva</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4  gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic20.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic20.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">20. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4  gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic21.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic21.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">21. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4  gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic22.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic22.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">22. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>	
+
+					<div class="element col-sm-4  gall staklo">
+						<a class="plS" href="images/prettyPhotoImages/pic23.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic23.jpg" alt="Staklo"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">23. Staklo</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic24.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic24.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">24. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic25.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic25.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">25. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic26.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic26.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">26. Hrast</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic27.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic27.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">27. Bajc belo</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>	
+
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic28.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic28.jpg" alt="Hrast"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">28. Bajc belo</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>				
+					
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic29.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic29.jpg"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">29.</a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic30.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic30.jpg"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">30. </a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic31.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic31.jpg"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">31. </a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic32.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic32.jpg"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">32. </a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+					
+					<div class="element col-sm-4   gall hrast">
+						<a class="plS" href="images/prettyPhotoImages/pic33.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="images/prettyPhotoImages/thumb_pic33.jpg"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">33. </a></h3>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>		
+			</div>
+			
+			
+				
+			
+		</div>
+			
+		</div>
+    </div>    
+       
+    
+    <!--about start-->    
+    
+    <div id="about">
+    	<div class="line2">
+			<div class="container">
+				<div class="row Fresh">
+					<div class="col-md-4 Des">
+						<i class="fa fa-heart"></i>
+						<h4>Kvalitet</h4>
+						<p>Dugogodišnje iskustvo i porodična tradicija u ovom poslu su garancija kvaliteta naših proizvoda.</p>
+					</div>
+					<div class="col-md-4 Ver">
+						<i class="fa fa-cog"></i>
+						<h4>Odgovornost</h4>
+						<p>Poštujemo naše rokove isporuke i svakom proizvodu posvećujemo maksimalnu pažnju.</p>
+					</div>
+					<div class="col-md-4 Fully">
+						<i class="fa fa-tablet"></i>
+						<h4>Dostupnost</h4>
+						<p>Uvek nas možete kontaktirati, posetiti nas i našu radionicu.</p>
+					</div>		
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 wwa">
+					<span name="about" ></span>
+					<h3>Ko smo mi? Upoznajte naš tim!</h3>
+					<p>Ortačka stolarska radnja Erkić(O.S.R. Erkić) je porodična firma sa dugom tradicijom i iskustvom iz inostranstva. O.S.R. Erkić bavi se izradom svih vrsta stepenica od masivnog drveta.
+						<br>Specijalizovali smo se za izradu spiralnih stepenica, oblaganje betonskih i samonosivih stepenica od hrasta, jasena i parene bukve.
+						<br>O.S.R. Erkić u ponudi ima razne modele samonosivih i spiralnih stepenica.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row team">
+				<div class="col-md-4 b1">
+						<h4>Rado Erkić</h4>
+						<p>Ima više od 40 godina iskustva u stolarskim poslovima i višegodišnje iskustvo iz inostranstva.</p>
+				</div>
+			
+			
+				<div class="col-md-4">
+						<h4>Darko Erkić</h4>
+						<h5>Vlasnik</h5>
+						<p>Ima više od 20 godina iskustva u stolarskim poslovima i višegodišnje iskustvo iz inostranstva.</p>
+				</div>
+		
+			
+				<div class="col-md-4 b3">
+						<h4>Danijel Erkić</h4>
+						<p>Ima više od 20 godina iskustva u stolarskim poslovima i višegodišnje iskustvo iz inostranstva.</p>
+				</div>
+			</div>
+		</div>
+    </div>
+	
+    <!--contact start-->
+    
+    <div id="contact">
+    	<div class="line5">					
+			<div class="container">
+				<div class="row Ama">
+					<div class="col-md-12">
+					<h3>Imate pitanja? Mi smo ovde da Vam pomognemo!</h3>
+					<p>Kontaktirajte nas</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 col-xs-12 forma">
+				<br>
+					<form name="feedbackForm" method="post" action="feedback.php">
+						<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Name *'/>
+						<input type="text" class="col-md-6 col-xs-12 Email" name='email' placeholder='Email *'/>
+						<input type="text" class="col-md-12 col-xs-12 Subject" name='subject' placeholder='Subject'/>
+						<textarea type="text" class="col-md-12 col-xs-12 Message" name='message' placeholder='Message *'></textarea>
+						<div class="cBtn col-xs-12">
+							<ul>
+								<input class="send" type="submit" name="submit" id="formSubmit" value="Pošalji poruku">
+							</ul>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-3 col-xs-12 cont">
+					<ul>
+						<li><i class="fa fa-home"></i>Račkog 186, Petrovaradin, Novi Sad, Srbija</li>
+						<li><i class="fa fa-phone"></i>+381 (0)21 431 414, +381 (0)64 124 09 03</li>
+						<li><a href="mailto:darko.erkic@gmail.com"><i class="fa fa-envelope"></i>darko.erkic@gmail.com</a></li>
+						<li><a href="https://www.facebook.com/Stepenice.Erkic/?fref=ts" target=_blank><i class="fa fa-facebook-square"></i>Facebook</a></li>
+						<li><a href="https://www.youtube.com/watch?v=S29inNP9K5A" target=_blank><i class="fa fa-youtube-play"></i>YouTube</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="line6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1405.0022961949658!2d19.
+				87842135826905!3d45.22747478383892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b1ac9f25d5e65%3A0x6ec03cc87e012df9!2sRa%C4%8Dkog%20186%2C%20Petrovaradin%2021000!5e0!3m2!1sen!2srs!4v1677671347275!5m2!1sen!2srs" 
+				style="border:0;" allowfullscreen="" 
+				loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<!-- <iframe src=[https://goo.gl/maps/RaG9g4R4pCfgTEC3A] width="100%" height="450px" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+		</div>
+		
+		<div class="line7">
+			<div class="container">
+				<div class="row footer">
+					<div class="col-md-12">
+						<h3>Pratite nas na Facebook-u i YouTube-u</h3>
+						<div class="fr">						
+						</div>
+					</div>
+					<div class="soc col-md-12">
+						<ul>
+							<li class="soc2"><a href="https://www.facebook.com/Stepenice.Erkic/?fref=ts" target=_blank></a></li>
+							<li class="soc6"><a href="https://www.youtube.com/watch?v=S29inNP9K5A" target=_blank></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="lineBlack">
+			<div class="container">
+				<div class="row downLine">
+					
+					<div class="col-md-6 text-left copy">
+						<p>Copyright &copy; 2023 Ortačka stolarska radnja Erkić. Sva prava zadržana.</p>
+					</div>
+					<div class="col-md-6 text-right dm">
+						<ul id="downMenu">
+							<li class="active"><a href="#home">Home</a></li>
+							<li><a href="#about">O nama</a></li>
+							<li><a href="#project1">Radovi</a></li>
+							<li class="last"><a href="#contact">Kontakt</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>		
+		
+		
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script type="text/javascript">
+	function submitform()
+	{
+	  document.feedbackForm.submit();
+	}
+	</script>
+	<script>
+			$(document).ready(function(){
+			$(".bhide").click(function(){
+				$(".hideObj").slideDown();
+				$(this).hide(); //.attr()
+				return false;
+			});
+			$(".bhide2").click(function(){
+				$(".container.hideObj2").slideDown();
+				$(this).hide(); // .attr()
+				return false;
+			});
+				
+			$('.heart').mouseover(function(){
+					$(this).find('i').removeClass('fa-heart-o').addClass('fa-heart');
+				}).mouseout(function(){
+					$(this).find('i').removeClass('fa-heart').addClass('fa-heart-o');
+				});
+				
+				function sdf_FTS(_number,_decimal,_separator)
+				{
+				var decimal=(typeof(_decimal)!='undefined')?_decimal:2;
+				var separator=(typeof(_separator)!='undefined')?_separator:'';
+				var r=parseFloat(_number)
+				var exp10=Math.pow(10,decimal);
+				r=Math.round(r*exp10)/exp10;
+				rr=Number(r).toFixed(decimal).toString().split('.');
+				b=rr[0].replace(/(\d{1,3}(?=(\d{3})+(?:\.\d|\b)))/g,"\$1"+separator);
+				r=(rr[1]?b+'.'+rr[1]:b);
+
+				return r;
+}
+				
+			setTimeout(function(){
+					$('#counter').text('0');
+					$('#counter1').text('0');
+					$('#counter2').text('0');
+					setInterval(function(){
+						
+						var curval=parseInt($('#counter').text());
+						var curval1=parseInt($('#counter1').text().replace(' ',''));
+						var curval2=parseInt($('#counter2').text());
+						if(curval<=1079){
+							$('#counter').text(curval+1);
+						}
+						if(curval1<=1079){
+							$('#counter1').text(sdf_FTS((curval1+20),0,' '));
+						}
+						if(curval2<=245){
+							$('#counter2').text(curval2+1);
+						}
+					}, 2);
+					
+				}, 500);
+			});
+	</script>
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('#menu').slicknav();
+		
+	});
+	</script>
+	
+	<script type="text/javascript">
+    $(document).ready(function(){
+       
+        var $menu = $("#menuF");
+            
+        $(window).scroll(function(){
+            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("default")
+                           .addClass("fixed transbg")
+                           .fadeIn('fast');
+                });
+            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("fixed transbg")
+                           .addClass("default")
+                           .fadeIn('fast');
+                });
+            }
+        });
+	});
+    //jQuery
+	</script>
+	<script>
+		/*menu*/
+		function calculateScroll() {
+			var contentTop      =   [];
+			var contentBottom   =   [];
+			var winTop      =   $(window).scrollTop();
+			var rangeTop    =   200;
+			var rangeBottom =   500;
+			$('.navmenu').find('a').each(function(){
+				contentTop.push( $( $(this).attr('href') ).offset().top );
+				contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
+			})
+			$.each( contentTop, function(i){
+				if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
+					$('.navmenu li')
+					.removeClass('active')
+					.eq(i).addClass('active');				
+				}
+			})
+		};
+		
+		$(document).ready(function(){
+			calculateScroll();
+			$(window).scroll(function(event) {
+				calculateScroll();
+			});
+			$('.navmenu ul li a').click(function() {  
+				$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
+				return false;
+			});
+		});		
+	</script>	
+	<script type="text/javascript" charset="utf-8">
+
+		jQuery(document).ready(function(){
+			jQuery(".pretty a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true, social_tools: ''});
+			
+		});
+	</script>
+	
+	
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-12062475-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+	</script>
+	</body>
+	
+</html>

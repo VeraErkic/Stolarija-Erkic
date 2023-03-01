@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<base href="http://www.stolarijaerkic.com">
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1250"/>
+    <meta name="description" content="Stolarija Erkić - Kontakt- Izrada svih vrsta stepenica od masivnog drveta"/>
+    <meta name="keywords" content="stolarija erkic kontakt, erkic, stepenice, novi sad, srbija, drvene stepenice, spiralne stepenice, oblaganje stepenica, samonosive stepenice"/>
+    <meta name="robots" content="index, follow"/>
+
+	<title>Stolarija Erkić - kontakt</title>
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />	
+	 <style>
+      #map {
+        width: 100%;
+        height: 400px;
+      }
+    </style>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+
+      function initialize() {
+        var map_canvas = document.getElementById('map');
+        var map_options = {
+          center: new google.maps.LatLng(45.227374, 19.879481),
+          zoom: 13,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+		var map = new google.maps.Map(map_canvas, map_options)
+
+		var pos = new google.maps.LatLng(45.227374, 19.879481);
+
+		var marker = new google.maps.Marker({
+			position: pos,
+			map: map,
+			title: 'Ortačka stolarska radnja Erkić, Račkog 186, Petrovaradin, Srbija'
+		  });
+      }
+	  
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+	<h1>Stolarija Erkić</h1>
+	<div id="nav">
+		<a href="index.html">O Nama</a>
+		<a href="slideshow/slideshow.html">Galerija</a>
+		<a href="kontakt.html">Kontakt</a>
+	</div>
+	<div id="body">
+		<div id="body-top">
+			<div id="body-top-2"></div>
+			<div id="body-bot">
+				<div id="welcome">
+					<img src="images/left.png" width="231" height="173" alt="Bukva" /> 
+					<h2>Kontakt</h2>
+					<p>Ortačka stolarska radnja Erkić
+					<br />Račkog 186,
+					<br />Petrovaradin, Srbija
+					<br /><br />tel. +381 (0)21 431 414
+					<br />mob. tel. +381 (0)65 487 5771
+					<br />email: <a href="mailto:darko.erkic@gmail.com?subject=Kontakt sa web sajta">darko.erkic@gmail.com</a>
+					<br />
+					<br />
+					</p>
+				</div>
+								
+				<div id="content">
+			    <br />
+				<!--<img src="images/mapa.png" width="400" height="387" alt="Stolarija Erkić - Mapa" class="left" />-->
+				<div id="map"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Copyright &copy;2009-2014 Sva prava zadržana.</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12062475-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body>
+</html>
